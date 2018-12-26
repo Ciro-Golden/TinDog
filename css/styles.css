@@ -1,0 +1,245 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+    /* max-width: 210px; */
+    margin: 10px auto 10px auto;
+    font-family: "Montserrat-Bold";
+}
+
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.nav-natureleaf {
+    font-family: 'Dosis', sans-serif;
+    font-size: 22%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+    /* This will add space under the nav-bar making the picture and the greeting further down */
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    /* Increase the size of the font  */
+    font-weight: bold;
+    /* Making the wording with BOLD */
+}
+
+.nav-item {
+    padding: 0 18px/* Adding space/padding inbetween the Sections (Contact, Pricing, Download)  */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    /*Making (Contact, Pricing, Download) Bigger  */
+    font-family: "Montserrat-Light";
+    /* Making the font look nice with the rest of the page. */
+}
+
+
+/* Title Image */
+
+.title-img {
+    width: 60%;
+    position: absolute;
+    /* Making the DOG photo smaller. */
+    right: 30%;
+    transform: rotate(25deg);
+    /* When the screen is large it will have the dog image on a 25deg angle. */
+    margin-top: 80px;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    /* This will add space inbetween the buttons ** good to use for most button groups **  */
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections  */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff
+}
+
+
+/* Icons */
+
+.row {
+    margin: 100px auto 100px auto;
+}
+
+i:hover {
+    color: #ff4c68;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    /* Will keep the element inside the html flow BUT it will allow our features to have a position  */
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: .5rem;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    font-family: "Montserrat-Bold";
+    /* Adding Padding to the Testimonial Text so that is not close to the wall  */
+    /* Moving the Text to the center */
+    background-color: #ef8172;
+    /* The Background color for this section is the same as the ICONS always switch between main and off colors  */
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Testimonial Image */
+
+.testimonial-image {
+    width: 10%;
+    /*The width of the picture will be brought down to smaller */
+    border-radius: 100%;
+    /*This will make the image into a cirlce */
+    margin: 20px;
+    /* Adding a margin all around so that it has space away from the image. */
+}
+
+
+/* Press Section  */
+
+#press {
+    background-color: #ef8172;
+    /*Changing the background color to the same as the Testimonial section  */
+    /* Aligning all the Press Icons Center */
+    padding-bottom: 3%;
+    /* Adding Padding to the bottom will allow there to be some spce at the bottom instead of it being flush */
+}
+
+.press-logo {
+    width: 12%;
+    /* making the logos not so big, as you don't want the logos to be seen over the important text */
+    margin: 20px 20px 50px;
+    /* Adding some margin all around to give some space */
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    /* padding on all sides 100px  */
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    /* This adds space inbetween the pricing colums! */
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* CTA Section */
+
+.footer-icons {
+    margin: 20px 10px;
+}
+
+.copy-right {}
+
+.fab {
+    margin: 0 1% 0 0;
+}
+
+
+/* // Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {
+    ...
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+/* @media (min-width: 768px) {
+    ...
+} */
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    /* When the pages width is 1028px or smaller we want to change the position back to static.    */
+    .title-img {
+        /* Will be targeting the title-image class  */
+        position: static;
+        /* and turning its position back to static.  */
+        transform: rotate(0);
+    }
+}
